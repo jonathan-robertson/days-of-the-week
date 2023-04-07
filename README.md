@@ -25,6 +25,7 @@ Element | Change
 --- | ---
 Compass | Days replaced with day of the week
 Journal | Day read is removed
+Map | Day/Time entry is removed
 
 ## Sister Project
 

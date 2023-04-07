@@ -4,4 +4,8 @@
 
     <!-- journal entries -->
     <remove xpath="/windows/window[@name='windowJournalEntryDescription']/panel[@name='header']/label[@text='{timestamp}']" />
+
+    <!-- map menu -->
+    <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']//sprite[@name='dayTimeIcon']" />
+    <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']//label[@name='dayTimeLabel']" />
 </config>
