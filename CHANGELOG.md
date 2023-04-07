@@ -9,7 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - add localization for every language
 - update map date
+- update trader restock date to days remaining
+- update vending machine rental to days remaining
 
 ## [UNRELEASED]
 
+- remove journal entry day learned
 - update compass date

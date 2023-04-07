@@ -4,6 +4,7 @@
 
 - [Days of the Week](#days-of-the-week)
   - [Summary](#summary)
+    - [Adjustments](#adjustments)
   - [Sister Project](#sister-project)
   - [Compatibility](#compatibility)
   - [Acknowledgement](#acknowledgement)
@@ -18,17 +19,12 @@ If you use this mod, you'll be able to say "it happens every Sunday". No math. N
 
 > ℹ️ This mod does not alter the actual days within a game or server (many components in the game rely on server/world time increasing); it simply updates how the days are presented within the UI.
 
-Day | Weekday
+### Adjustments
+
+Element | Change
 --- | ---
-1 | Monday
-2 | Tuesday
-3 | Wednesday
-4 | Thursday
-5 | Friday
-6 | Saturday
-7 | Sunday
-8 | Monday
-9 | [etc.]
+Compass | Days replaced with day of the week
+Journal | Day read is removed
 
 ## Sister Project
 

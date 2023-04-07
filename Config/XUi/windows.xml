@@ -1,3 +1,7 @@
 <config>
+    <!-- compass -->
     <set xpath="/windows/window[@name='windowCompass']/sprite/label/@text">[{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}</set>
+
+    <!-- journal entries -->
+    <remove xpath="/windows/window[@name='windowJournalEntryDescription']/panel[@name='header']/label[@text='{timestamp}']" />
 </config>
