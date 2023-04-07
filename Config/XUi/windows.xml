@@ -8,4 +8,7 @@
     <!-- map menu -->
     <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']//sprite[@name='dayTimeIcon']" />
     <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']//label[@name='dayTimeLabel']" />
+
+    <!-- quest menu -->
+    <remove xpath="/windows/window[@name='windowQuestRewards']/panel[@name='header']/label[@text='{finishtime}']" />
 </config>

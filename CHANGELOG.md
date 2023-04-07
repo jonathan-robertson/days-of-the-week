@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UNRELEASED]
 
+- remove date from completed quests
 - remove journal entry day learned
 - remove map date
 - update compass date
