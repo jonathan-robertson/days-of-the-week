@@ -1,0 +1,3 @@
+<config>
+    <set xpath="/windows/window[@name='windowCompass']/sprite/label/@text">[{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}</set>
+</config>

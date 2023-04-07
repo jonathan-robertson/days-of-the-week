@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+dayOfTheWeek0,UI,Value display,x,,"Monday",,,,,,,,,,,,,,
+dayOfTheWeek1,UI,Value display,x,,"Tuesday",,,,,,,,,,,,,,
+dayOfTheWeek2,UI,Value display,x,,"Wednesday",,,,,,,,,,,,,,
+dayOfTheWeek3,UI,Value display,x,,"Thursday",,,,,,,,,,,,,,
+dayOfTheWeek4,UI,Value display,x,,"Friday",,,,,,,,,,,,,,
+dayOfTheWeek5,UI,Value display,x,,"Saturday",,,,,,,,,,,,,,
+dayOfTheWeek6,UI,Value display,x,,"Sunday",,,,,,,,,,,,,,
