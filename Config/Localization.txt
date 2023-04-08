@@ -1,16 +1,16 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-dayOfTheWeek0,UI,Value display,x,,"Monday",,,,,,,,,,,,,,
-dayOfTheWeek1,UI,Value display,x,,"Tuesday",,,,,,,,,,,,,,
-dayOfTheWeek2,UI,Value display,x,,"Wednesday",,,,,,,,,,,,,,
-dayOfTheWeek3,UI,Value display,x,,"Thursday",,,,,,,,,,,,,,
-dayOfTheWeek4,UI,Value display,x,,"Friday",,,,,,,,,,,,,,
-dayOfTheWeek5,UI,Value display,x,,"Saturday",,,,,,,,,,,,,,
-dayOfTheWeek6,UI,Value display,x,,"Sunday",,,,,,,,,,,,,,
+dayOfTheWeek0,UI,Value display,x,,Monday,,Montag,Lunes,Lundi,Lunedi,月曜日,월요일,Poniedziałek,Segunda-feira,Понедельник,Pazartesi,周一,週一,Lunes
+dayOfTheWeek1,UI,Value display,x,,Tuesday,,Dienstag,Martes,Mardi,Martedì,火曜日,화요일,Wtorek,Terça-feira,Вторник,Salı,周二,週二,Martes
+dayOfTheWeek2,UI,Value display,x,,Wednesday,,Mittwoch,Miércoles,Mercredi,Mercoledì,水曜日,수요일,Środa,Quarta-feira,Среда,Çarşamba,周三,週三,Miércoles
+dayOfTheWeek3,UI,Value display,x,,Thursday,,Donnerstag,Jueves,Jeudi,Giovedì,木曜日,목요일,Czwartek,Quinta-feira,Четверг,Perşembe,周四,週四,Jueves
+dayOfTheWeek4,UI,Value display,x,,Friday,,Freitag,Viernes,Vendredi,Venerdì,金曜日,금요일,Piątek,Sexta-feira,Пятница,Cuma,星期五,星期五,Viernes
+dayOfTheWeek5,UI,Value display,x,,Saturday,,Samstag,Sábado,Samedi,Sabato,土曜日,토요일,Sobota,Sábado,Суббота,Cumartesi,周六,週六,Sábado
+dayOfTheWeek6,UI,Value display,x,,Sunday,,Sonntag,Domingo,Dimanche,Domenica,日曜日,일요일,Niedziela,Domingo,Воскресенье,Pazar,星期日,星期日,Domingo
 
-shortDayOfTheWeek0,UI,Value display,x,,"MON",,,,,,,,,,,,,,
-shortDayOfTheWeek1,UI,Value display,x,,"TUE",,,,,,,,,,,,,,
-shortDayOfTheWeek2,UI,Value display,x,,"WED",,,,,,,,,,,,,,
-shortDayOfTheWeek3,UI,Value display,x,,"THU",,,,,,,,,,,,,,
-shortDayOfTheWeek4,UI,Value display,x,,"FRI",,,,,,,,,,,,,,
-shortDayOfTheWeek5,UI,Value display,x,,"SAT",,,,,,,,,,,,,,
-shortDayOfTheWeek6,UI,Value display,x,,"SUN",,,,,,,,,,,,,,
+shortDayOfTheWeek0,UI,Value display,x,,MON,,,,,,,,,,,,,,
+shortDayOfTheWeek1,UI,Value display,x,,TUE,,,,,,,,,,,,,,
+shortDayOfTheWeek2,UI,Value display,x,,WED,,,,,,,,,,,,,,
+shortDayOfTheWeek3,UI,Value display,x,,THU,,,,,,,,,,,,,,
+shortDayOfTheWeek4,UI,Value display,x,,FRI,,,,,,,,,,,,,,
+shortDayOfTheWeek5,UI,Value display,x,,SAT,,,,,,,,,,,,,,
+shortDayOfTheWeek6,UI,Value display,x,,SUN,,,,,,,,,,,,,,
