@@ -27,6 +27,8 @@ Compass | Days replaced with day of the week
 Journal | Day read is removed
 Map | Day/Time entry is removed
 Quests | Date Completed is removed
+Trader | Restock Date is removed
+Vending | Expiration Date is removed (Rentable Vending Machines)
 
 ## Sister Project
 

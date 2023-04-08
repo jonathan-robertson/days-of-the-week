@@ -16,4 +16,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - remove date from completed quests
 - remove journal entry day learned
 - remove map date
+- remove trader restock date
+- remove vending machine rental expiration
 - update compass date
