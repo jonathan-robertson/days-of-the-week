@@ -15,10 +15,6 @@
     <!-- remove trader restock date -->
     <remove xpath="/windows/window[@name='windowTrader']/panel[@name='header']/label[@text='{restocklabel}: {timeleft}']" />
 
-    <!-- add clock for rentable vending machine expiration date -->
-    <setattribute xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='categorySelector']" name="controller">MapStats</setattribute>
-    <insertafter xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/label[@text_key='xuiProductName']">
-        <sprite name="daysOfTheWeekTraderClockIcon" depth="1" pos="240,-5" width="24" height="24" sprite="ui_game_symbol_clock" visible="{isrenter}" color="[iconColor]" foregroundlayer="true" />
-        <label name="daysOfTheWeekTraderClock" depth="1" pos="270,-5" width="146" text="{}[DECEA3]{mapdaytime}[-]" visible="{isrenter}" />
-    </insertafter>
+    <!-- remove rentable vending machine expiration date -->
+    <remove xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='searchControls']/label[@text='{renttimeleft}']" />
 </config>
