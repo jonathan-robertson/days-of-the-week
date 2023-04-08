@@ -28,8 +28,8 @@ Compass | Days replaced with day of the week
 Journal | Day read is removed
 Map | Day/Time entry is removed
 Quests | Date Completed is removed
-Trader | Restock Date is removed
-Vending | Expiration Date is removed (Rentable Vending Machines)
+Trader | Date/Time Clock is added (by default) to Trader for Restock reference
+Vending | Date/Time Clock is added (by default) to Rentable Vending for Expiration Date reference
 
 ### Options
 

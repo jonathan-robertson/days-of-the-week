@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UNRELEASED]
 
+- add clock to rental vend for expiration
+- add clock to trader for restock
 - add optional short days of the week
 
 ## [0.1.0] - 2023-04-08
