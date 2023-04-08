@@ -9,11 +9,13 @@
     - [Optional Short Day](#optional-short-day)
   - [Sister Project](#sister-project)
   - [Compatibility](#compatibility)
-  - [Acknowledgement](#acknowledgement)
+  - [Acknowledgements](#acknowledgements)
 
 ## Summary
 
 7 Days to Die mod: Replace days count in UI with a day of the week.
+
+> 🗺️ This mod is fully localized 🎉
 
 The general idea is that the total day count is relatively meaningless to most players. Most players want to know what the day *means* for them and the recurring question many admins receive on a regular basis is "how many days till blood moon?"
 
@@ -50,6 +52,8 @@ If you highly prefer to have Restock Days display, I have included an optional c
 
 If you want to integrate this mod into any existing mod, you can still use the same format found in line 3 of `windows.xml` to update your own compass days value.
 
+> 🗺️ These optional short-dates are currently only available in English.
+
 ```xml
 [{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}
 ```
@@ -72,7 +76,7 @@ Dedicated Server | Yes | No | only server
 Peer-to-Peer Hosting | Yes | No | only the host
 Single Player | Yes | No | self (of course)
 
-## Acknowledgement
+## Acknowledgements
 
 This mod as it's currently written is only possible due to the brilliant efforts of another modder and his willingness to share what he learned:
 
