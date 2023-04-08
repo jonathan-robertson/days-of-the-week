@@ -8,10 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [TODO]
 
 - add localization for every language
-- update trader restock date to days remaining
-- update vending machine rental to days remaining
 
-## [UNRELEASED]
+## [0.2.0] - 2023-04-08
+
+- add clock to rental vend for expiration
+- add optional clock to trader for restock
+- add optional short days of the week
+
+## [0.1.0] - 2023-04-08
 
 - remove date from completed quests
 - remove journal entry day learned
