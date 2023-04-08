@@ -5,6 +5,7 @@
 - [Days of the Week](#days-of-the-week)
   - [Summary](#summary)
     - [Adjustments](#adjustments)
+    - [Options](#options)
   - [Sister Project](#sister-project)
   - [Compatibility](#compatibility)
   - [Acknowledgement](#acknowledgement)
@@ -29,6 +30,20 @@ Map | Day/Time entry is removed
 Quests | Date Completed is removed
 Trader | Restock Date is removed
 Vending | Expiration Date is removed (Rentable Vending Machines)
+
+### Options
+
+If you want to integrate this mod into any existing mod, you can still use the same format found in line 3 of `windows.xml` to update your own compass days value.
+
+```xml
+[{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}
+```
+
+As a bonus, I've included short days as well - in case you're shooting for a more compact look:
+
+```xml
+[{daycolor}]{# localization('shortDayOfTheWeek' + (day-1)%7)}[-] {time}
+```
 
 ## Sister Project
 
