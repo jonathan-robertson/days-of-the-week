@@ -6,8 +6,9 @@
   - [Summary](#summary)
     - [Optional Vending Expiration Clock](#optional-vending-expiration-clock)
     - [Optional Trader Restock Clock](#optional-trader-restock-clock)
+    - [Days Remaining Compatibility Mode](#days-remaining-compatibility-mode)
     - [Optional Short Day](#optional-short-day)
-  - [Sister Project](#sister-project)
+  - [Sister Projects](#sister-projects)
   - [Compatibility](#compatibility)
   - [Acknowledgements](#acknowledgements)
 
@@ -48,6 +49,10 @@ If you highly prefer to have Restock Days display, I have included an optional c
 
 > ℹ️ If you do not like this, feel free to adjust
 
+### Days Remaining Compatibility Mode
+
+TODO
+
 ### Optional Short Day
 
 If you want to integrate this mod into any existing mod, you can still use the same format found in line 3 of `windows.xml` to update your own compass days value.
@@ -64,9 +69,12 @@ As a bonus, I've included short days as well - in case you're shooting for a mor
 [{daycolor}]{# localization('shortDayOfTheWeek' + (day-1)%7)}[-] {time}
 ```
 
-## Sister Project
+## Sister Projects
 
-This mod is designed to work well with another if you're using a dedicated server: [Only Seven Days](https://github.com/jonathan-robertson/only-seven-days).
+This mod is designed to work well with a few others if you're using a dedicated server:
+
+- [Only Seven Days](https://github.com/jonathan-robertson/only-seven-days)
+- [Days Remaining](https://github.com/jonathan-robertson/days-remaining)
 
 ## Compatibility
 
