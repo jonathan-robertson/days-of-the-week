@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [TODO]
+
+- update reference to only-seven-days mod
+
+## [0.4.0] - 2023-04-14
+
+- add note about days-remaining mod
+- add windows-days-remaining.xml option
+
 ## [0.3.0] - 2023-04-08
 
 - add localization for every supported language

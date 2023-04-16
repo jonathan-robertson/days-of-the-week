@@ -3,7 +3,7 @@
         <Name value="Days of the Week" />
         <Description value="Replace days count in UI with a day of the week." />
         <Author value="Jonathan Robertson (Kanaverum)" />
-        <Version value="0.3.0" />
+        <Version value="0.4.0" />
         <Website value="https://github.com/jonathan-robertson/days-of-the-week" />
     </ModInfo>
 </xml>
