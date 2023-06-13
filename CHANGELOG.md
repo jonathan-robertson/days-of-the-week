@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - update reference to only-seven-days mod
 
+## [1.0.0] - ?
+
+- update to a21 mod-info file format
+
 ## [0.4.0] - 2023-04-14
 
 - add note about days-remaining mod

@@ -1,9 +1,8 @@
 <xml>
-    <ModInfo>
-        <Name value="Days of the Week" />
-        <Description value="Replace days count in UI with a day of the week." />
-        <Author value="Jonathan Robertson (Kanaverum)" />
-        <Version value="0.4.0" />
-        <Website value="https://github.com/jonathan-robertson/days-of-the-week" />
-    </ModInfo>
+    <Name value="kanaverum-days-of-the-week" />
+    <DisplayName value="Days of the Week" />
+    <Version value="1.0.0" />
+    <Description value="Replace days count in UI with a day of the week." />
+    <Author value="Jonathan Robertson (Kanaverum)" />
+    <Website value="https://github.com/jonathan-robertson/days-of-the-week" />
 </xml>
