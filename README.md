@@ -1,6 +1,6 @@
 # Days of the Week
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A20.6%20b9-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21%20b313-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
 
 - [Days of the Week](#days-of-the-week)
   - [Summary](#summary)
@@ -71,9 +71,8 @@ As a bonus, I've included short days as well - in case you're shooting for a mor
 
 ## Sister Projects
 
-This mod is designed to work well with a few others if you're using a dedicated server:
+This mod is designed to work well with another if you're using a dedicated server:
 
-- [Only Seven Days](https://github.com/jonathan-robertson/only-seven-days)
 - [Days Remaining](https://github.com/jonathan-robertson/days-remaining)
 
 ## Compatibility
