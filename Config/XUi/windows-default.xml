@@ -1,0 +1,21 @@
+<config>
+    <!-- compass -->
+    <set xpath="/windows/window[@name='windowCompass']/sprite/label/@text">[{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}</set>
+
+    <!-- map menu (no real value; duplicated info from compass) -->
+    <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']/sprite[@name='dayTimeIcon']" />
+    <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']/label[@name='dayTimeLabel']" />
+
+    <!-- quest menu (no real value) -->
+    <remove xpath="/windows/window[@name='windowQuestRewards']/panel[@name='header']/label[@text='{finishtime}']" />
+
+    <!-- remove trader restock date -->
+    <remove xpath="/windows/window[@name='windowTrader']/panel[@name='header']/label[@text='{restocklabel}: {timeleft}']" />
+
+    <!-- add clock for rentable vending machine expiration date -->
+    <setattribute xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/label[@text_key='xuiProductName']/.." name='controller'>MapStats</setattribute>
+    <insertafter xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='tableHeader']/rect/label[@text_key='xuiProductName']">
+        <sprite name="daysOfTheWeekTraderClockIcon" depth="1" pos="240,-5" width="24" height="24" sprite="ui_game_symbol_clock" visible="{isrenter}" color="[iconColor]" foregroundlayer="true" />
+        <label name="daysOfTheWeekTraderClock" depth="1" pos="270,-5" width="146" text="{}[DECEA3]{mapdaytime}[-]" visible="{isrenter}" />
+    </insertafter>
+</config>

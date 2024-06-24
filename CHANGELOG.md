@@ -7,13 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - ?
 
+- add default window config
 - improve readme
 - update for 7dtd 1.0
 - remove journal references (deprecated)
-- [ ] test with add-restock-clock config
-- [ ] test with remove-vend-clock config
-- [ ] test with days-remaining config with days-remaining mod
-- [ ] add content to readme section for `Days Remaining Compatibility Mode`
 
 ## [1.0.0] - 2023-06-13
 
