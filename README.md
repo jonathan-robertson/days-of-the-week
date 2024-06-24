@@ -1,6 +1,6 @@
 # Days of the Week
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-A21%20b313-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-1.0%20b308-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
 
 - [Days of the Week](#days-of-the-week)
   - [Summary](#summary)
@@ -27,7 +27,6 @@ If you use this mod, you'll be able to say "it happens every Sunday". No math. N
 Element | Change
 --- | ---
 Compass | Days replaced with day of the week
-Journal | Day read is removed
 Map | Day/Time entry is removed
 Quests | Date Completed is removed
 Trader | Restock Date is removed (by default; see [Optional Vending Expiration Clock](#optional-vending-expiration-clock))
@@ -37,17 +36,19 @@ Vending | Date/Time Clock is added to Rentable Vending for Expiration Date refer
 
 Because the default Rentable Vending Machines present a *target* expiration date rather than the count for the number of days remaining before machine expiration, having a reference to the current game/server day is necessary for context.
 
-One has been included in the "Product Name" column for this very purpose, but you can disable this by swapping `Config/windows.xml` with `Config/windows-remove-vend-clock.xml`.
+For this reason, a small date/time clock has been included in the "Product Name" column header for comparison against the Rentable Vending Machine's Expiration Day.
+
+If you don't like the clock being here, you can disable it by swapping `Config/windows.xml` with `Config/windows-remove-vend-clock.xml`.
 
 ### Optional Trader Restock Clock
 
 Trader Restock Day is similarly referring to the day the trader expects to restock inventory; without knowing the current day, the context for this information is completely lost.
 
-While the same kind of Date/Time clock *can* be added for traders with a Restock Day displayed, I decided to not include this by default and instead completely remove Restock Days from the Trader UI. I did this because Restock Days provides information that is not critically necessary for the player.
+While the same kind of Date/Time clock *can* be added for traders with a Restock Day displayed, I decided to not include this by default and instead completely remove Restock Days from the Trader UI.
 
-If you highly prefer to have Restock Days display, I have included an optional configuration that will add it back and include a Clock showing the current Day/Time. You can enable this by swapping `Config/windows.xml` with `Config/windows-add-restock-clock.xml`.
+> I removed the 'Restock Days' by default because I don't think the information it provides is critically necessary for the player.
 
-> ℹ️ If you do not like this, feel free to adjust
+If you prefer seeing a 'Restock Days' display, I have included an optional configuration that will add it back, along with a Clock to show the current Day/Time. You can enable this by swapping `Config/windows.xml` with `Config/windows-add-restock-clock.xml`.
 
 ### Days Remaining Compatibility Mode
 
@@ -90,4 +91,4 @@ This mod as it's currently written is only possible due to the brilliant efforts
 **Shado47** developed the [Immersive Days](https://7daystodiemods.com/immersive-days-display/) mod that "Changes the day counter below the compass to go through weekdays, months, and years. Starts on January 1st, 2020".
 
 If this sounds even better to you than this mod does, I would highly encourage you to check out Immersive Days.
-> ℹ️ Just like this mod, his does not require EAC to be disabled and is able to be served from a server without any client-side downloads.
+> Just like this mod, his does not require EAC to be disabled and is able to be served from a server without any client-side downloads.

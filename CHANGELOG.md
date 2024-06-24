@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - ?
 
+- improve readme
 - update for 7dtd 1.0
 - remove journal references (deprecated)
 - [ ] test with add-restock-clock config
