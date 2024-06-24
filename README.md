@@ -1,6 +1,6 @@
 # Days of the Week
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-1.0%20b308-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
+[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-1.0%20b309-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
 
 - [Days of the Week](#days-of-the-week)
   - [Summary](#summary)
@@ -52,7 +52,16 @@ If you prefer seeing a 'Restock Days' display, I have included an optional confi
 
 ### Days Remaining Compatibility Mode
 
-TODO
+A sister project will take the experience further, but **is currently only supported on dedicated servers**.
+
+Added features include:
+
+- seeing an actually 'remaining days' count in your Vending Machine Rental instead of a specific day the expiration will happen
+- an expiration reminder for your rental (including the number of remaining days)
+  - each time you log into the server
+  - each time the current day changes(at midnight) while on the server
+
+If you prefer seeing the actual days remaining on a vending machine rental, install [Days Remaining](https://github.com/jonathan-robertson/days-remaining) on your server and swap `Config/windows.xml` with `Config/windows-days-remaining.xml`.
 
 ### Optional Short Day
 

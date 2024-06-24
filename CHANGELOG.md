@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] - ?
 
 - add default window config
+- add reference to days-remaining mode
 - improve readme
 - update for 7dtd 1.0
 - remove journal references (deprecated)
