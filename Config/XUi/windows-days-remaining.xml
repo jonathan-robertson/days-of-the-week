@@ -2,9 +2,6 @@
     <!-- compass -->
     <set xpath="/windows/window[@name='windowCompass']/sprite/label/@text">[{daycolor}]{# localization('dayOfTheWeek' + (day-1)%7)}[-] {time}</set>
 
-    <!-- journal entries (no real value) -->
-    <remove xpath="/windows/window[@name='windowJournalEntryDescription']/panel[@name='header']/label[@text='{timestamp}']" />
-
     <!-- map menu (no real value; duplicated info from compass) -->
     <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']/sprite[@name='dayTimeIcon']" />
     <remove xpath="/windows/window[@name='mapArea']/panel[@name='content']/panel[@name='mapView']/rect[@name='content']/label[@name='dayTimeLabel']" />

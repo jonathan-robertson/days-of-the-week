@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2024-06-28
+
+- add default window config
+- add reference to days-remaining mode
+- improve readme
+- update for 7dtd 1.0
+- remove journal references (deprecated)
+
 ## [1.0.0] - 2023-06-13
 
 - remove reference to only-seven-days mod
