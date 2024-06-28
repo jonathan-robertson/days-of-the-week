@@ -52,16 +52,16 @@ If you prefer seeing a 'Restock Days' display, I have included an optional confi
 
 ### Days Remaining Compatibility Mode
 
-A sister project will take the experience further, but **is currently only supported on dedicated servers**.
-
-Added features include:
+A sister project will take the experience further - added features include:
 
 - seeing an actually 'remaining days' count in your Vending Machine Rental instead of a specific day the expiration will happen
 - an expiration reminder for your rental (including the number of remaining days)
   - each time you log into the server
   - each time the current day changes(at midnight) while on the server
 
-If you prefer seeing the actual days remaining on a vending machine rental, install [Days Remaining](https://github.com/jonathan-robertson/days-remaining) on your server and swap `Config/windows.xml` with `Config/windows-days-remaining.xml`.
+If you prefer seeing the actual days remaining on a vending machine rental, install [Days Remaining](https://github.com/jonathan-robertson/days-remaining) on your server or in your P2P host and swap `Config/windows.xml` with `Config/windows-days-remaining.xml`.
+
+> Downloading this mod on each connecting client will not be necessary; only the one hosting the game (or the dedicated server) will need it installed and everyone (except for the host in P2P games) can leave EAC enabled.
 
 ### Optional Short Day
 
