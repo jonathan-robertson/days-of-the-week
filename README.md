@@ -1,16 +1,11 @@
 # Days of the Week
 
-[![🧪 Tested On](https://img.shields.io/badge/🧪%20Tested%20On-1.0%20b309-blue.svg)](https://7daystodie.com/) [![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
-
-- [Days of the Week](#days-of-the-week)
-  - [Summary](#summary)
-    - [Optional Vending Expiration Clock](#optional-vending-expiration-clock)
-    - [Optional Trader Restock Clock](#optional-trader-restock-clock)
-    - [Days Remaining Compatibility Mode](#days-remaining-compatibility-mode)
-    - [Optional Short Day](#optional-short-day)
-  - [Sister Projects](#sister-projects)
-  - [Compatibility](#compatibility)
-  - [Acknowledgements](#acknowledgements)
+[![🧪 Tested with 7DTD 1.2 (b27)](https://img.shields.io/badge/🧪%20Tested%20with-7DTD%201.2%20(b27)-blue.svg)](https://7daystodie.com/)
+[![🧪 Tested with 7DTD 1.1 (b14)](https://img.shields.io/badge/🧪%20Tested%20with-7DTD%201.1%20(b14)-blue.svg)](https://7daystodie.com/)
+[![🧪 Tested with 7DTD 1.0 (b333)](https://img.shields.io/badge/🧪%20Tested%20with-7DTD%201.0%20(b333)-blue.svg)](https://7daystodie.com/)
+[![✅ Dedicated Servers Supported ServerSide](https://img.shields.io/badge/✅%20Dedicated%20Servers-Supported%20Serverside-blue.svg)](https://7daystodie.com/)
+[![✅ Single Player and P2P Supported](https://img.shields.io/badge/✅%20Single%20Player%20and%20P2P-Supported-blue.svg)](https://7daystodie.com/)
+[![📦 Automated Release](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml/badge.svg)](https://github.com/jonathan-robertson/days-of-the-week/actions/workflows/release.yml)
 
 ## Summary
 
@@ -24,13 +19,13 @@ If you use this mod, you'll be able to say "it happens every Sunday". No math. N
 
 > ℹ️ This mod does not alter the actual days within a game or server (many components in the game rely on server/world time increasing); it simply updates how the days are presented within the UI.
 
-Element | Change
---- | ---
-Compass | Days replaced with day of the week
-Map | Day/Time entry is removed
-Quests | Date Completed is removed
-Trader | Restock Date is removed (by default; see [Optional Vending Expiration Clock](#optional-vending-expiration-clock))
-Vending | Date/Time Clock is added to Rentable Vending for Expiration Date reference (by default; see [Optional Trader Restock Clock](#optional-trader-restock-clock))
+| Element | Change                                                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Compass | Days replaced with day of the week                                                                                                                           |
+| Map     | Day/Time entry is removed                                                                                                                                    |
+| Quests  | Date Completed is removed                                                                                                                                    |
+| Trader  | Restock Date is removed (by default; see [Optional Vending Expiration Clock](#optional-vending-expiration-clock))                                            |
+| Vending | Date/Time Clock is added to Rentable Vending for Expiration Date reference (by default; see [Optional Trader Restock Clock](#optional-trader-restock-clock)) |
 
 ### Optional Vending Expiration Clock
 
@@ -87,11 +82,11 @@ This mod is designed to work well with another if you're using a dedicated serve
 
 ## Compatibility
 
-Environment | Compatible | Does EAC Need to be Disabled? | Who needs to install?
---- | --- | --- | ---
-Dedicated Server | Yes | No | only server
-Peer-to-Peer Hosting | Yes | No | only the host
-Single Player | Yes | No | self (of course)
+| Environment          | Compatible | Does EAC Need to be Disabled? | Who needs to install? |
+| -------------------- | ---------- | ----------------------------- | --------------------- |
+| Dedicated Server     | Yes        | No                            | only server           |
+| Peer-to-Peer Hosting | Yes        | No                            | only the host         |
+| Single Player        | Yes        | No                            | self (of course)      |
 
 ## Acknowledgements
 
